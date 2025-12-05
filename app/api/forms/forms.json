@@ -1,0 +1,17 @@
+[
+  {
+    "id": "i130",
+    "name": "Form I-130",
+    "description": "Petition for Alien Relative"
+  },
+  {
+    "id": "w2",
+    "name": "Form W-2",
+    "description": "Wage and Tax Statement"
+  },
+  {
+    "id": "1099",
+    "name": "Form 1099",
+    "description": "Miscellaneous Income"
+  }
+]

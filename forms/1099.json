@@ -1,0 +1,21 @@
+{
+  "id": "1099",
+  "title": "Form 1099: Miscellaneous Income",
+  "sections": [
+    {
+      "name": "Payer Information",
+      "fields": [
+        { "id": "payer_name", "label": "Payer Name", "type": "text", "required": true },
+        { "id": "payer_tin", "label": "Payer TIN", "type": "text", "required": true }
+      ]
+    },
+    {
+      "name": "Recipient Information",
+      "fields": [
+        { "id": "recipient_name", "label": "Recipient Name", "type": "text", "required": true },
+        { "id": "recipient_tin", "label": "Recipient TIN", "type": "text", "required": true },
+        { "id": "recipient_address", "label": "Recipient Address", "type": "text", "required": true }
+      ]
+    }
+  ]
+}

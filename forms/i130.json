@@ -1,0 +1,24 @@
+{
+  "id": "i130",
+  "title": "Petition for Alien Relative",
+  "sections": [
+    {
+      "name": "Part 1: Information About You (Petitioner)",
+      "fields": [
+        { "id": "petitioner_first_name", "label": "First Name", "type": "text", "required": true },
+        { "id": "petitioner_last_name", "label": "Last Name", "type": "text", "required": true },
+        { "id": "petitioner_dob", "label": "Date of Birth", "type": "date", "required": true },
+        { "id": "petitioner_address", "label": "Home Address", "type": "text", "required": true }
+      ]
+    },
+    {
+      "name": "Part 2: Information About Beneficiary",
+      "fields": [
+        { "id": "beneficiary_first_name", "label": "First Name", "type": "text", "required": true },
+        { "id": "beneficiary_last_name", "label": "Last Name", "type": "text", "required": true },
+        { "id": "beneficiary_dob", "label": "Date of Birth", "type": "date", "required": true },
+        { "id": "beneficiary_country", "label": "Country of Birth", "type": "text", "required": true }
+      ]
+    }
+  ]
+}

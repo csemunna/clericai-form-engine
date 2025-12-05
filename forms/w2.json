@@ -1,0 +1,21 @@
+{
+  "id": "w2",
+  "title": "Form W-2: Wage and Tax Statement",
+  "sections": [
+    {
+      "name": "Employee Information",
+      "fields": [
+        { "id": "employee_name", "label": "Employee Name", "type": "text", "required": true },
+        { "id": "employee_ssn", "label": "Social Security Number", "type": "text", "required": true },
+        { "id": "employee_address", "label": "Address", "type": "text", "required": true }
+      ]
+    },
+    {
+      "name": "Employer Information",
+      "fields": [
+        { "id": "employer_name", "label": "Employer Name", "type": "text", "required": true },
+        { "id": "employer_ein", "label": "Employer EIN", "type": "text", "required": true }
+      ]
+    }
+  ]
+}
