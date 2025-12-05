@@ -1,7 +1,5 @@
-"use client";
-
-import DemoPage from "./demo/page";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return <DemoPage />;
+  redirect("/demo");
 }
